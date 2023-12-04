@@ -1,9 +1,6 @@
 # ramdump
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/ramdump
 
-# google_battery service
-BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
-
 # sepolicy that are shared among devices using zuma
 BOARD_SEPOLICY_DIRS += device/google/zuma-sepolicy/vendor
 BOARD_SEPOLICY_DIRS += device/google/zuma-sepolicy/radio
@@ -26,4 +23,3 @@ BOARD_SEPOLICY_DIRS += device/google/zuma-sepolicy/legacy/whitechapel_pro
 PRODUCT_PRIVATE_SEPOLICY_DIRS += device/google/zuma-sepolicy/legacy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += device/google/zuma-sepolicy/legacy/system_ext/public
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += device/google/zuma-sepolicy/legacy/system_ext/private
-
